@@ -1,0 +1,41 @@
+[
+    {
+        "owner": "Dominique Daybach",
+        "mortgage_amount": [
+            "$ 2,257 "
+        ],
+        "current_balance": [
+            "$ - "
+        ],
+        "status": [
+            "Open"
+        ]
+    },
+    {
+        "owner": "William Gigging",
+        "mortgage_amount": [
+            "$ 2,730 ",
+            "$ 2,246 "
+        ],
+        "current_balance": [
+            "$ - ",
+            "$ 2,246 "
+        ],
+        "status": [
+            "Transferred",
+            "Foreclosure"
+        ]
+    },
+    {
+        "owner": "Buffalo Suburban Estates",
+        "mortgage_amount": [
+            "$ 24,823 "
+        ],
+        "current_balance": [
+            "$ 20,000 "
+        ],
+        "status": [
+            "Foreclosure"
+        ]
+    }
+]
