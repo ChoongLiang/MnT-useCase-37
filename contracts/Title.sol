@@ -1,13 +1,11 @@
 pragma solidity ^0.5.0;
-
+pragma experimental ABIEncoderV2;
 /**
     Owner address
  */
 contract Ownable {
 
   address public owner;
-//   uint public balance;
-  mapping(address => uint) public balance;
 
   /**
    * @dev The Ownable constructor sets the original `owner` of the contract to the sender
@@ -15,9 +13,11 @@ contract Ownable {
    */
   constructor() public {
     owner = msg.sender;
-    balance[msg.sender] = 100;
   }
 
+    function getOwner() public returns(address){
+        return owner;
+    }
 
   /**
    * @dev Throws if called by any account other than the owner.
@@ -26,7 +26,9 @@ contract Ownable {
     require(msg.sender == owner);
     _;
   }
-
+  
+  
+//Certificate of Incorporation
 
   /**
    * @dev Allows the current owner to transfer control of the contract to a newOwner.
@@ -55,16 +57,88 @@ contract Destructible is Ownable {
   }
 }
 
-contract BankAccount is Ownable, Destructible {
+// validate the Title and return true if title is clean
+contract Title is Ownable, Destructible {
+    
+    enum TxType { Sale, Will, Foreclosure, Mortgage, CertOfInc, RefDeed}
+    //price[msg.sender] = 100;
+    // uint public balance;
+  //mapping(address => uint) public balance;
+      TxType public status = TxType.Sale; 
 
-  function store() public payable {
+    struct Person{
+        string name;
+        
+    }
+    
+    uint public PropartyIdCount;
+    
+    struct Proparty {
+        uint id;
+        string homeAddress;
+        address buyer;
+        address seller;
+        string date;
+        TxType tx;
+        uint price;
+    }
+    
+    mapping(address => Proparty) public home;
+    
+     
+    function getHomeId() public returns(uint){
+        return home[super.getOwner()].id;
+    }
+   
+    constructor(string memory title) public {
+        PropartyIdCount = 1;
+        TxType transaction;
+        home[super.getOwner()].id = PropartyIdCount;
+        home[super.getOwner()].homeAddress = title;
+        home[super.getOwner()].tx = status;
+    }
+    
+    //buy a house
+  function buy() public payable {
+      PropartyIdCount +=1;
+      
+  } 
+  //sell a house
+  function sell() public payable {
+      
+  } 
+  // inherit a house
+  function inheritance() public payable {
       
   } 
 
-//   function withdraw(uint amount) public onlyOwner {
-//       if (this.balance >= amount) {
-//         msg.sender.transfer(amount);
-//       }
-//   } 
 
+}
+
+contract Tax is Title{
+    
+    struct Taxes {
+        uint id;
+        string owner;
+        uint taxYear;
+        bool taxRecieved;
+        uint amount;
+    }
+    
+    address[16] public seller;
+    Taxes public tx;
+    constructor() public{
+        tx.taxRecieved = false;
+     }
+    
+    function taxIsPayed(uint id) public returns(bool){
+        require(id >= 0 && id <= 16);
+        
+        seller[id] =  home[super.getOwner()].seller;
+        
+        if  (tx.taxRecieved == false){
+            return false;
+        }
+        
+    }
 }
