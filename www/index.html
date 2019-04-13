@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="colorlib.com">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+  </head>
+  <style>
+  h1 { 
+    margin: auto;
+    text-align: center;
+    color: #008364;
+  font-weight: bold;
+  }
+  .btn-search-trans {
+    background: transparent;
+    position: fixed;
+    top: 62%;
+    right: 11em;
+    border: none;
+    overflow: hidden;
+    outline: none;
+  }
+  .btn-search-trans a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  </style>
+  <body>
+    <div class="s01">
+      <form>
+        <fieldset>
+          <legend><h1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspM&T </h1></legend>
+        </fieldset>
+        <div class="inner-form">
+          <div class="input-field first-wrap">
+            <input id="search" type="text" placeholder="Search for your Title" />
+          </div>
+          <div class="input-field third-wrap">
+            <a href="javascript:delay('/Users/kamallala/Desktop/BUILDATHON/test1.html')"><button class="btn-search" type="button" ></button></a> 
+            <button class="btn-search-trans" type="button" ><a href="javascript:delay('/Users/kamallala/Desktop/BUILDATHON/test2.html')">Search</a></button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script type="text/javascript">
+      function delay(URL) {
+        setTimeout( function() {
+          window.location = URL 
+        }, 1500);
+      }
+    </script>
+  </body>
+</html>
