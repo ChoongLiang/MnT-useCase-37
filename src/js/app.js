@@ -1,3 +1,6 @@
+/*
+ * Web 3 initialization goes here
+ */
 App = {
   web3Provider: null,
   contracts: {},
@@ -57,8 +60,8 @@ App = {
     /*
      * Replace me...
      */
+    return App.initDB();
   }
-
 };
 
 $(function() {
