@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4e4cf2d-3077-481a-a12e-3df37fb73202" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/box-img-lg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/box-img-sm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,10 +18,25 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="63" column="3" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
+            <state relative-caret-position="408">
+              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-csv/json/TitleDataset-370BerrymanDr.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-csv/json/JudgementDatabase.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-csv/json/MortgageDatabase.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -37,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -57,6 +68,7 @@
       <list>
         <option value="$PROJECT_DIR$/package-lock.json" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/migrations/2_deploy_contracts.js" />
         <option value="$PROJECT_DIR$/src/js/app.js" />
       </list>
     </option>
@@ -82,6 +94,17 @@
               <item name="buildathon-2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="buildathon-2019" type="462c0819:PsiDirectoryNode" />
               <item name="contracts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buildathon-2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="buildathon-2019" type="462c0819:PsiDirectoryNode" />
+              <item name="data-csv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buildathon-2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="buildathon-2019" type="462c0819:PsiDirectoryNode" />
+              <item name="data-csv" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="buildathon-2019" type="b2602c69:ProjectViewProjectNode" />
@@ -151,24 +174,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555165030709</updated>
-      <workItem from="1555165033211" duration="2924000" />
+      <workItem from="1555165033211" duration="5230000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2924000" />
+    <option name="totallyTimeSpent" value="5230000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1265" height="1050" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <layout>
       <window_info id="npm" sideWeight="0.31938776" side_tool="true" weight="0.2509804" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.68061227" visible="true" weight="0.2033762" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.68061227" visible="true" weight="0.15250151" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
@@ -249,7 +271,7 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -259,10 +281,31 @@
     <entry file="file://$PROJECT_DIR$/migrations/1_initial_migration.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/data-csv/json/JudgementDatabase.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-csv/json/MortgageDatabase.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-csv/csv2json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3212" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/2_deploy_contracts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-csv/json/TitleDataset-370BerrymanDr.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="63" column="3" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
+        <state relative-caret-position="408">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
         </state>
       </provider>
     </entry>
